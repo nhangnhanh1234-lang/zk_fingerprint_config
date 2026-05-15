@@ -1,0 +1,20 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "Socket": {
+    "Url": "http://10.10.8.55:8023",
+    "ClientName": "ZK_TecoApp",
+    "Group": "kyvantay",
+    "ReconnectionDelayMs": 2000,
+    "ConnectionTimeoutSeconds": 20
+  },
+  "Device": {
+    "DeviceIndex": 0,
+    "CaptureIntervalMs": 100,
+    "AutoStart": true
+  }
+}
