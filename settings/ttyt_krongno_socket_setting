@@ -1,0 +1,20 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "Socket": {
+    "Url": "http://socket.khambenhkrongno.com",
+    "ClientName": "ZK_TecoApp",
+    "Group": "ky_van_tay",
+    "ReconnectionDelayMs": 2000,
+    "ConnectionTimeoutSeconds": 20
+  },
+  "Device": {
+    "DeviceIndex": 0,
+    "CaptureIntervalMs": 100,
+    "AutoStart": true
+  }
+}
